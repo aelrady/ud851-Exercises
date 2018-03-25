@@ -25,7 +25,7 @@
             android:id="@+id/ib_water_increment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="?attr/selectableItemBackgroundBorderless"
+            android:background="attr/selectableItemBackgroundBorderless"
             android:contentDescription="@string/water_increment_content_desc"
             android:onClick="incrementWater"
             android:padding="8dp"
@@ -85,13 +85,5 @@
             android:text="@string/default_charge_notification_count" />
 
     </RelativeLayout>
-
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:onClick="testNotification"
-        android:text="Test Notification" />
 
 </LinearLayout>
